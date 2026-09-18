@@ -1,11 +1,10 @@
 file: crosby-dashboard-8e6fc4d.tar.gz
 sha256: 2cb8ac492dc2554e0629186629c802c645720f5dddbe6af65df8e3b4e7e32c66
 bytes: 5079652
-chunks: 8
-files: chunk-0.b64 chunk-1.b64 chunk-2.b64 chunk-3.b64 chunk-4.b64 chunk-5.b64 chunk-6.b64 chunk-7.b64
+chunks: 32
+files: chunk-00.b64 chunk-01.b64 chunk-02.b64 chunk-03.b64 chunk-04.b64 chunk-05.b64 chunk-06.b64 chunk-07.b64 chunk-08.b64 chunk-09.b64 chunk-10.b64 chunk-11.b64 chunk-12.b64 chunk-13.b64 chunk-14.b64 chunk-15.b64 chunk-16.b64 chunk-17.b64 chunk-18.b64 chunk-19.b64 chunk-20.b64 chunk-21.b64 chunk-22.b64 chunk-23.b64 chunk-24.b64 chunk-25.b64 chunk-26.b64 chunk-27.b64 chunk-28.b64 chunk-29.b64 chunk-30.b64 chunk-31.b64
 
 # reconstruct
-# curl -fsSL \
-#   https://raw.githubusercontent.com/crosby-arch/desk-fly-drop-20260918/main/chunk-{0..7}.b64 \
+# curl -fsSL https://raw.githubusercontent.com/crosby-arch/desk-fly-drop-20260918/main/chunk-{00..31}.b64 \
 #   | tr -d '\n' | base64 -d > crosby-dashboard-8e6fc4d.tar.gz
 # sha256sum crosby-dashboard-8e6fc4d.tar.gz
